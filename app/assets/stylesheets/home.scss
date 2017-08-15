@@ -24,6 +24,17 @@
     color: #333;
   }
 }
+ .caption p {
+  margin-bottom: 0px;
+ }
+ .thumbnail h4{
+  margin-bottom: 5px;
+ }
+
+ .thumbnail a img {
+  height: 190px;
+  width: 252px;
+ }
 
 .media {
   &.shopping-cart-row {
