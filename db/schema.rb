@@ -124,7 +124,7 @@ ActiveRecord::Schema.define(version: 20170307055457) do
     t.datetime "reset_password_email_sent_at"
     t.string   "uuid"
     t.integer  "default_address_id"
-    t.boolean  "is_admin",                        default: true
+    t.boolean  "is_admin",                        default: false
     t.index ["activation_token"], name: "index_users_on_activation_token", using: :btree
     t.index ["email"], name: "index_users_on_email", unique: true, using: :btree
     t.index ["remember_me_token"], name: "index_users_on_remember_me_token", using: :btree

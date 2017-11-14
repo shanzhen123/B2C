@@ -27,7 +27,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 gem 'bootstrap-sass'
-gem 'font-awesome-rails'
+gem 'font-awesome-sass','~>4.7.0'
 gem 'sorcery'
 gem 'ancestry'
 gem 'will_paginate'

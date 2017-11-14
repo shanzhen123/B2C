@@ -14,8 +14,7 @@ class ShoppingCartsController < ApplicationController
 
     @product = Product.find(params[:product_id])
     @shopping_cart = ShoppingCart.create_or_update!({
-      user_uuid: session[:user_uuid],
-      product_id: params[:product_id],
+      user_uuid: session[:user_uuid], product_id: params[:product_id],
       amount: amount
     })
 
